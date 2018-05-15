@@ -413,6 +413,7 @@ img{
     height: auto;
     margin: 0 auto;
     margin-top: 45px;
+    margin-bottom: 85px;
 }
 .content_mid1_top{
     width: 100%;
@@ -454,6 +455,9 @@ img{
 .content_mid1_mid_item1{
     margin-left: 0px;
 }
+.content_mid1_mid_item2{
+    border: 0;
+}
 .mid1_item_top{
     width: 100%;
     height: 230px;
@@ -477,8 +481,8 @@ img{
     background-color: #e5e5e5;
 }
 .mid1_item_mid{
-    width: 100%;
-    height: auto;
+    width: 140px;
+    height: 45px;
     margin-top: 28px;
     margin-left: 20px;
 }
@@ -492,8 +496,15 @@ img{
     font-weight: normal;
     font-size: 12px;
 }
+.mid1_line{
+    width: 255px;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: #1180ca;
+}
 .mid1_item_bottom{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     height: auto;
     margin-left: 20px;
@@ -512,10 +523,14 @@ img{
     height: 30px;
     float: left;
 }
+.price1 h1{
+    font-size: 30px;
+}
 .buy2{
     width: 78px;
     height: 28px;
     float: left;
+    margin-top: 6px;
     position: relative;
 }
 .buy{
@@ -541,10 +556,19 @@ img{
     border-radius: 25px;
     background-color:#1180ca;
 }
+.bottom_line{
+    width: 100%;
+    height: 8px;
+    background-color: #1180ca;
+    position: absolute;
+    left: 12px;
+    bottom: -30px;
+}
 .footer{
     width: 1200px;
     height: auto;
     margin: 0 auto;
+    margin-top: 45px;
 }
 .part2_content{
     width: 1200px;
@@ -652,4 +676,5 @@ img{
     font-size: 16px;
     font-weight:700;
 }
+
 
